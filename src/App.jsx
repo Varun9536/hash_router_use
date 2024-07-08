@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
 
         <Routes>
 
@@ -45,7 +45,7 @@ function App() {
           </Route>
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
 
       {/* <RouterProvider  router={router} /> */}
     </>
