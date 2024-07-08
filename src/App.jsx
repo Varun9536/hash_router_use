@@ -1,7 +1,7 @@
 
 // import './App.css'
 
-import { createBrowserRouter, HashRouter, Link, Route, RouterProvider, Routes } from "react-router-dom"
+import { createBrowserRouter, HashRouter, BrowserRouter , Link, Route, RouterProvider, Routes } from "react-router-dom"
 import Address from "./components/Address"
 import Contact from "./components/Contact"
 import Home from "./components/Home"
