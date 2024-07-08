@@ -35,10 +35,12 @@ function App() {
       <HashRouter>
         <Routes>
 
-          <Route path="/" element={<Home />}   >
+          <Route path="/" element = {<div><Link to = "/varun">varun</Link></div>} />
 
-            <Route path="/address" element={<Address />} />
-            <Route path="/contact" element={<Contact />} />
+          <Route path="/varun" element={<Home />}   >
+
+            <Route path="address" element={<Address />} />
+            <Route path="contact" element={<Contact />} />
           </Route>
 
         </Routes>

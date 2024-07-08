@@ -18,7 +18,7 @@ export default function Contact() {
 </div>
             <Link to="/">Go to home LINK TAG</Link>
             <div>
-                <NavLink to="/address"> go to address NAVLINK TAG</NavLink>
+                <NavLink to="address"> go to address NAVLINK TAG</NavLink>
             </div>
         </div>
     )

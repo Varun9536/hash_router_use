@@ -6,13 +6,13 @@ export default function Home() {
         <div>
 
 
-            <Link to="/contact">CONTACT</Link>
+            <Link to="contact">CONTACT</Link>
             <div>
 
             </div>
-            <Link to="/address">address</Link>
+            <Link to="address">address</Link>
 
-            
+
             <Outlet />
         </div>
     )
