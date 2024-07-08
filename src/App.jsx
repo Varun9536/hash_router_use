@@ -1,7 +1,7 @@
 
 // import './App.css'
 
-import { createBrowserRouter, HashRouter, Link, Route, RouterProvider, Routes } from "react-router-dom"
+import { BrowserRouter, createBrowserRouter, HashRouter, Link, Route, RouterProvider, Routes } from "react-router-dom"
 import Address from "./components/Address"
 import Contact from "./components/Contact"
 import Home from "./components/Home"
@@ -32,7 +32,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
 
           <Route path="/" element = {<div><Link to = "/varun">varun</Link></div>} />
@@ -44,7 +44,7 @@ function App() {
           </Route>
 
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
 
       {/* <RouterProvider  router={router} /> */}
     </>

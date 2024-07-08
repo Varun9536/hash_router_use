@@ -16,7 +16,7 @@ export default function Contact() {
             <div>
 
             </div>
-            
+
             <Link to="/">Go to home LINK TAG</Link>
             <div>
                 <Link to="/varun/address"> go to address</Link>
