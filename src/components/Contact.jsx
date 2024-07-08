@@ -13,12 +13,13 @@ export default function Contact() {
 
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci nihil mollitia deleniti atque optio, quos aperiam fugit ad ratione minima aut, nam consequatur esse quod quo perspiciatis possimus delectus deserunt?
 
-<div>
+            <div>
 
-</div>
+            </div>
+            
             <Link to="/">Go to home LINK TAG</Link>
             <div>
-                <NavLink to="address"> go to address NAVLINK TAG</NavLink>
+                <Link to="/varun/address"> go to address</Link>
             </div>
         </div>
     )
