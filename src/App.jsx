@@ -32,7 +32,8 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
+
         <Routes>
 
           <Route path="/" element = {<div><Link to = "/varun">varun</Link></div>} />
@@ -44,7 +45,7 @@ function App() {
           </Route>
 
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
 
       {/* <RouterProvider  router={router} /> */}
     </>
